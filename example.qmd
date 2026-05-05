@@ -17,7 +17,7 @@ Some content here.
 
 {{< slidebreak >}}
 
-more content
+more content after slide break (slide break is invisible in html format)
 
 ## Second Titled Slide
 
