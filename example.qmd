@@ -17,8 +17,6 @@ more content
 
 More content on a new slide.
 
-{{< slidebreak >}}
-
 ## Third Titled Slide
 
 And even more content on another new slide.
