@@ -11,12 +11,14 @@ Some content here.
 
 {{< slidebreak >}}
 
-## Second Slide
+more content
+
+## Second Titled Slide
 
 More content on a new slide.
 
 {{< slidebreak >}}
 
-## Third Slide
+## Third Titled Slide
 
 And even more content on another new slide.
