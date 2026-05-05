@@ -1,12 +1,15 @@
 ---
 title: Slidebreak Example
 format: 
-  html: default
+  html:
+    output-file: index.html
   revealjs: 
     output-file: example-slides.html
 filters:
   - d-morrison/slidebreak
 ---
+
+[View as slides](example-slides.html){.btn .btn-primary}
 
 ## First Slide
 
