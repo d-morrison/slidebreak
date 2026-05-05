@@ -1,6 +1,9 @@
 ---
 title: Slidebreak Example
-format: revealjs
+format: 
+  html: default
+  revealjs: 
+    output-file: example-slides.html
 filters:
   - d-morrison/slidebreak
 ---
