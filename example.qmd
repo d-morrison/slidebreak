@@ -1,0 +1,22 @@
+---
+title: Slidebreak Example
+format: revealjs
+filters:
+  - d-morrison/slidebreak
+---
+
+## First Slide
+
+Some content here.
+
+{{< slidebreak >}}
+
+## Second Slide
+
+More content on a new slide.
+
+{{< slidebreak >}}
+
+## Third Slide
+
+And even more content on another new slide.
