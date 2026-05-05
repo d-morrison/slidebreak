@@ -50,6 +50,15 @@ jobs:
             fi
           fi
 
+      - name: Ensure index page exists
+        run: |
+          if [ ! -f "${{ env.QUARTO_OUTPUT }}/index.html" ]; then
+            first_html="$(find "${{ env.QUARTO_OUTPUT }}" -maxdepth 1 -type f -name '*.html' | head -n 1)"
+            if [ -n "$first_html" ]; then
+              cp "$first_html" "${{ env.QUARTO_OUTPUT }}/index.html"
+            fi
+          fi
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
