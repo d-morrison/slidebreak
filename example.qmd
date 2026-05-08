@@ -5,8 +5,8 @@ format:
     output-file: index.html
   revealjs: 
     output-file: example-slides.html
-filters:
-  - d-morrison/slidebreak
+shortcodes:
+  - _extensions/slidebreak/slidebreak.lua
 ---
 
 [View as slides](example-slides.html){.btn .btn-primary}

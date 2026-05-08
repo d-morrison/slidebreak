@@ -15,7 +15,14 @@ Quarto project.
 
 ## Usage
 
-Use the shortcode in your document:
+Enable the shortcode script in your document metadata:
+
+```yaml
+shortcodes:
+  - _extensions/slidebreak/slidebreak.lua
+```
+
+Then use the shortcode in your document:
 
 ```markdown
 ## First Section
